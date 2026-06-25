@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Quicksand:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Fredoka", "Quicksand", system-ui, sans-serif;
+  --font-display: "Fredoka", sans-serif;
+}
+
+/* Custom whimsical styles for kids theme */
+body {
+  font-family: var(--font-sans);
+  background-color: #fefcf0; /* Warm cream background */
+  overflow-x: hidden;
+}
+
+/* Playful background pattern */
+.bg-doodle {
+  background-color: #fefcf0;
+  background-image: radial-gradient(#ffe0b2 1.5px, transparent 1.5px), radial-gradient(#e1f5fe 1.5px, transparent 1.5px);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+}
+
+/* Rounded playful cards */
+.kids-card {
+  border-radius: 24px;
+  border: 4px solid #333333;
+  box-shadow: 6px 6px 0px #333333;
+}
+
+.kids-btn {
+  border: 3px solid #333333;
+  box-shadow: 4px 4px 0px #333333;
+  transition: all 0.15s ease-in-out;
+}
+
+.kids-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #333333;
+}
+
+.kids-bubble {
+  border: 3px solid #333333;
+  border-radius: 20px;
+  box-shadow: 3px 3px 0px #333333;
+}
+
+/* custom scrollbars */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff8e1;
+  border-left: 2px solid #333;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffd54f;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffb300;
+}

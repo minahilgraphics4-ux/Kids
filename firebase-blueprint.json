@@ -1,0 +1,31 @@
+{
+  "firestore": {
+    "collections": {
+      "profiles": {
+        "schema": {
+          "name": "string",
+          "magicCode": "string",
+          "avatarId": "string",
+          "xp": "number",
+          "level": "number",
+          "points": "number",
+          "streak": "number",
+          "lastLearnedDate": "string",
+          "questionsAsked": "number",
+          "quizzesCompleted": "number",
+          "badges": "array",
+          "categoryCounts": "map",
+          "updatedAt": "timestamp"
+        }
+      },
+      "chats": {
+        "schema": {
+          "buddyId": "string",
+          "profileId": "string",
+          "messages": "array",
+          "updatedAt": "timestamp"
+        }
+      }
+    }
+  }
+}

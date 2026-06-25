@@ -1,0 +1,6 @@
+{
+  "name": "Kids AI Learning Companion",
+  "description": "An interactive, colorful AI learning companion for kids that answers questions, hosts fun educational quizzes, and tracks learning progress.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
